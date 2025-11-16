@@ -19,24 +19,12 @@ Automatically install **Nginx** on 2 or 3 Ubuntu machines.
 
 ---
 
-##  Architecture
 
-Control Node (Ansible)
-│
-├── SSH
-│
-┌───────────┬───────────┐
-│           │           │
-Server 1  Server-2     Server-3
-(Nginx)   (Nginx)      (Nginx)
-
-
----
 
 ##  Project Structure
-mini_projet_ansible/
-│── hosts.ini
-│── install_nginx.yml
+mini_projet_ansible/<br>
+│── hosts.ini<br>
+│── install_nginx.yml<br>
 │── README.md
 
 
